@@ -1,0 +1,143 @@
+.background{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    background-image: url(asset/leaves-pattern.png);
+    
+}
+
+.wrap{
+	background:  #ffffff;
+    height: auto;
+    width: auto;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+ 
+/*bagian header*/
+.wrap .header{
+    background-image: url(asset/padi2.jpg);
+    text-align: center;
+    font-family: Fredoka One;
+    color: white;
+    border: 1px solid #AAFFF0;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+    font-style: normal;
+    font-weight: normal;
+    padding: 2px 10px;
+}
+
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+    background-color: #FFD6A5;
+    height: 60px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+    ;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+    background-color: #FFD6A5;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    font-style: normal;
+	padding: 20px;
+}
+
+.wrap .menu ul li .btn-beranda{
+    background: burlywood;
+}
+/*akhir menu*/
+ 
+.wrap .bingkaijudul{
+    background-color: #FFD6A5;
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+}
+ 
+.wrap .bingkaijudul .judul{
+    background-color: white;
+    height: 35px;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.wrap .bingkaijudul .judul .textjudul1{
+    padding-left: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+.wrap .garishitam{
+    background-color: black;
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+.wrap .garishitam .blokjudul{
+    background-color: #EDF2F4;
+    height: 41px;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+}
+
+.wrap .garishitam .blokjudul .blokjudul2{
+    background: #FFD6A5;
+    text-align: center;
+    width: 10%;
+    height: 100%
+}
+
+.wrap .garishitam .blokjudul .blokjudul2 .textjudul2{
+    padding-top: 10px;
+}
+
+.wrap .badan{
+    background: white;
+	float: left;
+	height: 450px;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 100%;
+    width: 100%;
+}
+
+.wrap .badan .content .isicontent{
+    padding-top: opx;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+ 
+.wrap .footer{
+    background: white;
+	padding: 10px;
+}
+
+.wrap .footer .textfooter{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
