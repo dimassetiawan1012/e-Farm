@@ -1,0 +1,231 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-container{
+  height: 90px;
+
+  border: 1px solid #02735F;
+  box-sizing: border-box;
+  border-radius: 15px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+
+}
+
+.nav-items li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-items li:nth-last-of-type(1){
+  margin: 0;
+}
+
+.nav-items li a{
+  font-family: Bruno Ace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 24px;
+  color: #02735F;
+}
+
+.nav-btn-container{
+  display: flex;
+  position: relative;
+}
+
+.btnlogin{
+  width: 90px;
+  height: 25px;
+  margin-right: 5px;
+  background: #3BA08E;
+  border: 1px solid #67AB9F;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.btndaftar{
+  width: 90px;
+  height: 25px;
+  margin-right: 10px;
+  background: #3BA08E;
+  border: 1px solid #67AB9F;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.video-container .text1{
+  position: absolute;
+  width: 388px;
+  height: 56px;
+  width: 388px;
+  left: 350px;
+  top: 600px;
+}
+
+.video-container2 .text1{
+  position: absolute;
+  width: 388px;
+  height: 56px;
+  width: 388px;
+  left: 350px;
+  top: 2600px;
+}
+
+.video-container .text1 h2{
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 87px;
+  align-items: center;
+  text-align: center;
+  color:white;
+  text-decoration-color: 1px solid #AAFFF0;
+  text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+}
+.video-container2 .text1 h2{
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 87px;
+  align-items: center;
+  text-align: center;
+  color:white;
+  text-decoration-color: 1px solid #AAFFF0;
+  text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.video-container .text1 p{
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.video-container2 .text1 p{
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.wrapper .containerprofile {
+  position: relative;
+  background: rgba(240, 230, 140, 0.75);
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.containerprofile .foto{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.containerprofile .text2{
+  font-family: Fredoka One;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.containerprofile .text2 p{
+  margin-top: 41px;
+  margin-left: 320px;
+  margin-bottom: 41px;
+  margin-right: 130px;
+}
+
+.containerslide{
+  position: relative;
+  width: 1000px;
+  margin-top: 5px;
+  margin-left: 220px;
+}
+
+
+.containerprofile2{
+  position: relative;
+  background: rgba(240, 230, 140, 0.75);
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.containerprofile2 .foto{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.containerprofile2 .text2{
+  font-family: Fredoka One;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.containerprofile2 .text2 p{
+  margin-top: 41px;
+  margin-left: 320px;
+  margin-bottom: 41px;
+  margin-right: 130px;
+}
+
+.containerprofile2 .text2 p{
+  margin-top: 41px;
+  margin-left: 320px;
+  margin-bottom: 41px;
+  margin-right: 130px;
+}
+.footer .wrapper{
+  background: white;
+padding: 10px;
+}
+
+.footer .wrapper .textfooter{
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
